@@ -1,0 +1,134 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>案簿錄</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous">
+    </script>
+    
+</head>
+
+<body>
+<!-- 相片輪播元件 -->
+<div id="photoCarousel" class="carousel slide" data-bs-ride="carousel">
+  <!-- Indicators 瀏覽控制 --> 
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#photoCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#photoCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#photoCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <button type="button" data-bs-target="#photoCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+    <button type="button" data-bs-target="#photoCarousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+    <button type="button" data-bs-target="#photoCarousel" data-bs-slide-to="5" aria-label="Slide 6"></button>
+    
+  </div>
+  <!-- 建立相片清單 -->
+  <script src="https://code.jquery.com/jquery.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  
+     <div class="jumbotron text-center">
+      <h1>各式小說</h1>
+      
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="圖片/0101.jpg"  class="d-block w-20 " style="display:block; margin:auto"  >
+      
+    </div>
+    
+    <div class="carousel-item ">
+      <img src="圖片/0201.jpg" class="d-block w-200 " style="display:block; margin:auto" >
+    </div>
+   
+    <div class="carousel-item">
+        <img src="圖片/0401.jpg" class="d-block w-200 " style="display:block; margin:auto" >
+      </div>
+    <div class="carousel-item">
+        <img src="圖片/0301.jpg" class="d-block w-200 " style="display:block; margin:auto" >
+    </div>
+    <div class="carousel-item">
+        <img src="圖片/0601.jpg" class="d-block w-200 " style="display:block; margin:auto" >
+    </div>
+    <div class="carousel-item">
+     <img src="圖片/0701.jpg" class="d-block w-200" style="display:block; margin:auto" > 
+    </div>
+
+  </div>
+  <!-- 上一張/下一張控制 --> 
+  <a class="left carousel-control" href="#photoCarousel" data-slide="prev">
+  <span class="glyphicon glyphicon-chevron-left"></span></a>
+  <a class="right carousel-control" href="#photoCarousel" data-slide="next">
+  <span class="glyphicon glyphicon-chevron-right"></span></a>
+  <button class="carousel-control-prev" type="button" data-bs-target="#photoCarousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#photoCarousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+  
+<!-- 巡覽列, navbar-default 表示白底黑字樣式 -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <!-- 選單表頭區塊 -->
+    <div class="container-fluid">
+      <a class="navbar-brand"  id="1">小說</a>
+      <!-- 按鈕 -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+     
+      </button>
+    </div>
+    
+    <!-- 選單 -->
+    <div id="mynav" class="collapse navbar-collapse">
+     
+      <ul class="navbar-nav">
+        <li class="nav-item "><a href="index.HTML"  style="font-size: 20px;">主頁 </a></li>
+        <li class="nav-item " ><a href="特殊傳.HTML" style="font-size: 20px;"> 特殊傳說</a></li>
+        <li class="nav-item " ><a href="迷途之羊.HTML" style="font-size: 20px;">迷途之羊</a></li>
+        <li class="nav-item " ><a href="以為名的星光.HTML" style="font-size: 20px;">以你為名的星光</a></li>
+        <li class="nav-item "><a href="紙星星.HTML" style="font-size: 20px;">紙星星</a></li>
+        <li class="nav-item "><a href="來自天堂的雨.HTML" style="font-size: 20px;">來自天堂的雨</a> </li>     
+     </ul>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <ul >作者及繪者:</ul>
+   <ul>作者:護玄</ul>
+   <ul>繪者:AKRU</ul>
+   <img src="圖片/0703.jpg" align="right" hspace="80" vspace="15" width="360" height="360" ><br>
+<ul>簡介:</ul>
+ <ul>身懷陰陽眼的衝動派，從不講話的紫眼冷靜少年。因與聿兩兄弟組成的絕妙搭檔，聯手探究各種不可思議的離奇事件。奇幻靈異、驚悚推理、歡樂搞笑
+  </ul>
+<img src="圖片/0702.jpg" align="right" hspace="90" vspace="10" width="360" height="360" ><br>
+<ul>主要角色</ul>
+ <ul>虞因:本作品的男主角，褐發，就讀台中的理東大學設計系，小時候一次意外後擁有陰陽眼，偶爾能看到另一個世界的物體。</ul>
+ <ul>少荻聿:姓“少荻”名“聿”，黑髮紫眼，高中生，滅門慘案的倖存者。</ul>
+ <ul>虞佟:虞因的父親，黑色短髮，戴眼鏡，長著一張娃娃臉，警察一名。</ul>
+ <ul>虞夏:虞佟的雙胞胎弟弟，虞因的叔叔，黑色短髮，長著一張娃娃臉，同樣是警察一名。</ul>
+ <ul>嚴司:警署法醫，褐色捆辮長發，外表年輕，黎子泓的前室友。</ul>
+ <ul>東風:黎子泓的學弟，蓬毛長發，非常聰明，似乎有著悲慘的過去。</ul>
+ <ul>一太:虞因的大學同學，黑髮，單邊耳環，是大學部的現任擺平者，高深莫測，為人有分寸以及可靠。</ul>
+ <img src="圖片/0704.jpg" align="right" hspace="80" vspace="15" width="360" height="360" ><br>
+ <ul>阿方:虞因的大學同學，大學部的前任擺平者。</ul>
+ <ul>方曉海:阿方的妹妹，喜歡虞佟。</ul>
+ <ul>陳關:虞因的大學同學，兼好友。</ul>
+ <ul>李臨玥:與虞因相識多年的死黨好友兼大學同學，長發美女，全票當選校花。</ul>
+ <ul>梨子泓:警方檢察官，黑髮，表情嚴肅。</ul>
+ <ul>阿柳:玖深的工作夥伴，有一個乾兒子，經常被玖深他拜託一些事情時得到一些如雙人電影票之類的回贈品。</ul>
+ <ul>玖深:鑑識人員，虞佟的下屬，阿柳的工作夥伴，是個很好的同事。</ul>
+ 
+<ul>購買連結:</ul>
+<ul><a href="https://search.books.com.tw/search/query/key/%E6%A1%88%E7%B0%BF%E9%8C%84/cat/all" >博客來</a></ul>
+<ul><a href="https://www.eslite.com/Search?keyword=%E6%A1%88%E7%B0%BF%E9%8C%84&final_price=0,&publishDate=0&sort=_weight_%20desc&size=20&display=list&start=0">誠品</a></ul>
+<ul><a href="https://www.kingstone.com.tw/search/key/%E6%A1%88%E7%B0%BF%E9%8C%84? " >金石堂</a></ul>
+<ul><a href="#1" >回頂端</a></ul>
+</body>
